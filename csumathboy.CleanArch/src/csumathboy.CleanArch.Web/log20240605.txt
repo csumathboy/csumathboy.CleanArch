@@ -1,0 +1,56 @@
+2024-06-05 13:23:01.724 +08:00 [INF] Registered 5 endpoints in 5,749 milliseconds.
+2024-06-05 13:23:06.261 +08:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-06-05 13:23:06.338 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Contributors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Contributors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL,
+    "PhoneNumber_CountryCode" TEXT NULL,
+    "PhoneNumber_Number" TEXT NULL,
+    "PhoneNumber_Extension" TEXT NULL
+);
+2024-06-05 13:23:06.511 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2024-06-05 13:23:06.565 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status", "c"."PhoneNumber_CountryCode", "c"."PhoneNumber_Extension", "c"."PhoneNumber_Number"
+FROM "Contributors" AS "c"
+2024-06-05 13:23:06.708 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 7), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name", "Status")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2024-06-05 13:23:06.721 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 8), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name", "Status")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2024-06-05 13:23:06.902 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-05 13:23:06.903 +08:00 [INF] Hosting environment: Development
+2024-06-05 13:23:06.903 +08:00 [INF] Content root path: D:\iisroot\git\architecture\clean\csumathboy.CleanArch\csumathboy.CleanArch\src\csumathboy.CleanArch.Web
+2024-06-05 13:23:06.961 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-06-05 13:23:07.856 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-06-05 13:23:07.856 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 899.6981ms
+2024-06-05 13:23:08.212 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 355.898ms
+2024-06-05 13:23:08.237 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui.css - null null
+2024-06-05 13:23:08.246 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.css - null null
+2024-06-05 13:23:08.246 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-bundle.js - null null
+2024-06-05 13:23:08.265 +08:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2024-06-05 13:23:08.265 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-05 13:23:08.267 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.css - 200 218 text/css 20.9761ms
+2024-06-05 13:23:08.280 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-standalone-preset.js - null null
+2024-06-05 13:23:08.281 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui.css - 200 151213 text/css 43.3975ms
+2024-06-05 13:23:08.285 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-05 13:23:08.285 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-05 13:23:08.286 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-05 13:23:08.288 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 2.7228ms
+2024-06-05 13:23:08.312 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-standalone-preset.js - 200 230642 text/javascript 32.5859ms
+2024-06-05 13:23:08.321 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-06-05 13:23:08.354 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-bundle.js - 200 1385018 text/javascript 108.3407ms
+2024-06-05 13:23:08.638 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 318.1659ms
+2024-06-05 13:23:09.270 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-06-05 13:23:09.309 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/favicon-32x32.png - null null
+2024-06-05 13:23:09.312 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-05 13:23:09.313 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/favicon-32x32.png - 200 628 image/png 3.5557ms
+2024-06-05 13:23:09.379 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-06-05 13:23:09.880 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 610.4073ms
