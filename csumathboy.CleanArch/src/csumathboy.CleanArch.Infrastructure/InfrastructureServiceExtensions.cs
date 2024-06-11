@@ -3,13 +3,13 @@ using csumathboy.SharedKernel;
 using csumathboy.CleanArch.Core.Interfaces;
 using csumathboy.CleanArch.Core.Services;
 using csumathboy.CleanArch.Infrastructure.Data;
-using csumathboy.CleanArch.Infrastructure.Data.Queries;
 using csumathboy.CleanArch.Infrastructure.Email;
 using csumathboy.CleanArch.UseCases.Contributors.List;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using csumathboy.CleanArch.Infrastructure.Data.Queries.Contributors;
 
 namespace csumathboy.CleanArch.Infrastructure;
 public static class InfrastructureServiceExtensions

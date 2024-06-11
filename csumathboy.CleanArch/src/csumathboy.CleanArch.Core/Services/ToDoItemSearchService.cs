@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Ardalis.Result;
 using csumathboy.CleanArch.Core.Interfaces;
 using csumathboy.CleanArch.Core.ProjectAggregate;
+using csumathboy.CleanArch.Core.ProjectAggregate.Specifications;
 using csumathboy.SharedKernel;
 
 namespace csumathboy.CleanArch.Core.Services;

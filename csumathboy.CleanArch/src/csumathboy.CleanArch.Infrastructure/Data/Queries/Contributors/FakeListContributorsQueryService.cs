@@ -1,7 +1,7 @@
 ﻿using csumathboy.CleanArch.UseCases.Contributors;
 using csumathboy.CleanArch.UseCases.Contributors.List;
 
-namespace csumathboy.CleanArch.Infrastructure.Data.Queries;
+namespace csumathboy.CleanArch.Infrastructure.Data.Queries.Contributors;
 public class FakeListContributorsQueryService : IListContributorsQueryService
 {
   public Task<IEnumerable<ContributorDTO>> ListAsync()

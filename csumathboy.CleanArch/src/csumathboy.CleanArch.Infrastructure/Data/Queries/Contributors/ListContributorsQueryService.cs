@@ -2,7 +2,7 @@
 using csumathboy.CleanArch.UseCases.Contributors.List;
 using Microsoft.EntityFrameworkCore;
 
-namespace csumathboy.CleanArch.Infrastructure.Data.Queries;
+namespace csumathboy.CleanArch.Infrastructure.Data.Queries.Contributors;
 public class ListContributorsQueryService(AppDbContext _db) : IListContributorsQueryService
 {
   // You can use EF, Dapper, SqlClient, etc. for queries -
