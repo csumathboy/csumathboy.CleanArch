@@ -1,0 +1,21 @@
+2024-06-06 15:44:49.891 +08:00 [INF] Registered 5 endpoints in 5,402 milliseconds.
+2024-06-06 15:44:52.523 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-06-06 15:44:52.695 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2024-06-06 15:44:52.813 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-06 15:44:52.813 +08:00 [INF] Hosting environment: Development
+2024-06-06 15:44:52.814 +08:00 [INF] Content root path: D:\iisroot\git\architecture\clean\csumathboy.CleanArch\csumathboy.CleanArch\src\csumathboy.CleanArch.Web
+2024-06-06 15:44:52.883 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-06-06 15:44:54.198 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 1324.9807ms
+2024-06-06 15:44:54.205 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-06-06 15:44:54.549 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 344.0411ms
+2024-06-06 15:44:54.582 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-06 15:44:54.587 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 4.6844ms
+2024-06-06 15:44:54.598 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-06-06 15:44:54.832 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 233.7694ms
+2024-06-06 15:44:55.347 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-06-06 15:44:55.407 +08:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-06-06 15:44:56.027 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 680.3673ms
