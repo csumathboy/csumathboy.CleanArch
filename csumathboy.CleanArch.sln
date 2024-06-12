@@ -3,23 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csumathboy.CleanArch.Core", "csumathboy.CleanArch\src\csumathboy.CleanArch.Core\csumathboy.CleanArch.Core.csproj", "{25457542-A15A-43E8-B6C6-DB66E8CF0ECF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csumathboy.CleanArch.Core", "csumathboy.CleanArch\src\csumathboy.CleanArch.Core\csumathboy.CleanArch.Core.csproj", "{25457542-A15A-43E8-B6C6-DB66E8CF0ECF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csumathboy.CleanArch.Infrastructure", "csumathboy.CleanArch\src\csumathboy.CleanArch.Infrastructure\csumathboy.CleanArch.Infrastructure.csproj", "{44351B84-0830-4516-B578-613EEA582F25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csumathboy.CleanArch.Infrastructure", "csumathboy.CleanArch\src\csumathboy.CleanArch.Infrastructure\csumathboy.CleanArch.Infrastructure.csproj", "{44351B84-0830-4516-B578-613EEA582F25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csumathboy.CleanArch.UseCases", "csumathboy.CleanArch\src\csumathboy.CleanArch.UseCases\csumathboy.CleanArch.UseCases.csproj", "{FB673465-70E1-4067-A4F2-9D594518BBA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csumathboy.CleanArch.UseCases", "csumathboy.CleanArch\src\csumathboy.CleanArch.UseCases\csumathboy.CleanArch.UseCases.csproj", "{FB673465-70E1-4067-A4F2-9D594518BBA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csumathboy.CleanArch.Web", "csumathboy.CleanArch\src\csumathboy.CleanArch.Web\csumathboy.CleanArch.Web.csproj", "{CD50B34D-10B6-4155-8DC3-B3917FA193E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csumathboy.CleanArch.Web", "csumathboy.CleanArch\src\csumathboy.CleanArch.Web\csumathboy.CleanArch.Web.csproj", "{CD50B34D-10B6-4155-8DC3-B3917FA193E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csumathboy.CleanArch.FunctionalTests", "csumathboy.CleanArch\tests\csumathboy.CleanArch.FunctionalTests\csumathboy.CleanArch.FunctionalTests.csproj", "{FAE40B9C-1C52-48E3-A130-CE53F832A023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csumathboy.CleanArch.FunctionalTests", "csumathboy.CleanArch\tests\csumathboy.CleanArch.FunctionalTests\csumathboy.CleanArch.FunctionalTests.csproj", "{FAE40B9C-1C52-48E3-A130-CE53F832A023}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csumathboy.CleanArch.IntegrationTests", "csumathboy.CleanArch\tests\csumathboy.CleanArch.IntegrationTests\csumathboy.CleanArch.IntegrationTests.csproj", "{2A9DD4D9-A679-434F-A185-1633D0EB008F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csumathboy.CleanArch.IntegrationTests", "csumathboy.CleanArch\tests\csumathboy.CleanArch.IntegrationTests\csumathboy.CleanArch.IntegrationTests.csproj", "{2A9DD4D9-A679-434F-A185-1633D0EB008F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csumathboy.CleanArch.UnitTests", "csumathboy.CleanArch\tests\csumathboy.CleanArch.UnitTests\csumathboy.CleanArch.UnitTests.csproj", "{F77CE940-305C-4772-84DE-8097CED66A9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csumathboy.CleanArch.UnitTests", "csumathboy.CleanArch\tests\csumathboy.CleanArch.UnitTests\csumathboy.CleanArch.UnitTests.csproj", "{F77CE940-305C-4772-84DE-8097CED66A9A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C8F596B3-AF42-4271-B5CD-30B1421B76BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csumathboy.SharedKernel", "csumathboy.CleanArch\src\csumathboy.SharedKernel\csumathboy.SharedKernel.csproj", "{C981CB76-EDCD-4D29-8DB0-8D78E0E6326C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csumathboy.SharedKernel", "csumathboy.CleanArch\src\csumathboy.SharedKernel\csumathboy.SharedKernel.csproj", "{C981CB76-EDCD-4D29-8DB0-8D78E0E6326C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csumathboy.CleanArch.BlazorApp", "csumathboy.CleanArch.BlazorApp\csumathboy.CleanArch.BlazorApp\csumathboy.CleanArch.BlazorApp.csproj", "{C8A378E7-7D88-4398-8657-E25D79E738E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csumathboy.CleanArch.BlazorApp.Client", "csumathboy.CleanArch.BlazorApp\csumathboy.CleanArch.BlazorApp.Client\csumathboy.CleanArch.BlazorApp.Client.csproj", "{35B9D9FB-9E49-4D2B-A3A1-FC67AA164E9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,14 @@ Global
 		{C981CB76-EDCD-4D29-8DB0-8D78E0E6326C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C981CB76-EDCD-4D29-8DB0-8D78E0E6326C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C981CB76-EDCD-4D29-8DB0-8D78E0E6326C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A378E7-7D88-4398-8657-E25D79E738E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A378E7-7D88-4398-8657-E25D79E738E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A378E7-7D88-4398-8657-E25D79E738E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A378E7-7D88-4398-8657-E25D79E738E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B9D9FB-9E49-4D2B-A3A1-FC67AA164E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B9D9FB-9E49-4D2B-A3A1-FC67AA164E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B9D9FB-9E49-4D2B-A3A1-FC67AA164E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B9D9FB-9E49-4D2B-A3A1-FC67AA164E9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
