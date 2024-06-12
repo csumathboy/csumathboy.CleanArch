@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace csumathboy.CleanArch.Infrastructure.Data.Migrations
-{
-    /// <inheritdoc />
-    public partial class Project : Migration
+namespace csumathboy.CleanArch.Infrastructure.Data.Migrations;
+ 
+/// <inheritdoc />
+public partial class Project : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -62,4 +62,4 @@ namespace csumathboy.CleanArch.Infrastructure.Data.Migrations
                 name: "Projects");
         }
     }
-}
+ 
